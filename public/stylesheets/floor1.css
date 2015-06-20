@@ -1,0 +1,118 @@
+/*
+* @Author      cj85996
+* @Date        2015-03-13
+* @Description ªÔ∆¥20150327¥Û¥Ÿ
+*/
+.screen{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.mod-hall{
+    width: 1131px;
+    height: 88px;
+    margin: 0px auto;
+    background-image: url(http://img.china.alibaba.com/cms/upload/2015/108/072/2270801_756593906.png);
+}
+.mod-hall ul{
+    margin-left: 29px;
+}
+.mod-hall li{
+    float: left;
+}
+.mod-hall a{
+    display: block;
+    width: 340px;
+    height: 77px;
+    margin: 0px 27px 0px 0px;
+}
+.mod-hall a:hover{
+    text-decoration: none;
+}
+.mod-hall a:hover img{
+    visibility: visible;
+}
+.mod-hall .col{
+    float: left;
+    width: 216px;
+    padding-left: 50px;
+    margin-top: 6px;
+}
+.mod-hall .name{
+    font-size: 23px;
+    font-weight: bold;
+}
+.mod-hall .description{
+    font-size: 15px;
+    font-style: italic;
+}
+.mod-hall .name, 
+.mod-hall .description{
+    color: white;
+    width: 200px;
+}
+.mod-hall img{
+    margin-top: 17px;
+    float: left;
+    visibility: hidden;
+}
+
+.mod-product-category{
+    margin: 9px 0px;
+    width: 1190px;
+    background-image: url(http://img.china.alibaba.com/cms/upload/2015/528/772/2277825_756593906.png);
+}
+.mod-product-category ul{
+    width:1200px;
+    height: 260px;
+    margin:0px auto;
+    overflow: hidden;
+}
+.mod-product-category li{
+    float:left;
+    width: 126px;
+    height: 135px;
+    margin-right: 7px;
+}
+.mod-product-category a{
+    display: block;
+    padding-top: 8px;
+}
+.mod-product-category li div{
+    width: 110px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.mod-product-category li img{
+    margin-top:-2px;
+    padding-left: 12px;
+}
+.mod-product-category li:hover img{
+    position: relative;
+    animation:move 500ms forwards;
+    -moz-animation:move 500ms forwards;    /* Firefox */
+    -webkit-animation:move 500ms forwards; /* Safari and Chrome */
+    -o-animation:move 500ms forwards;      /* Opera */
+}
+@keyframes move
+{
+    from{left: 0px;}
+    to{left: 5px}
+}
+@-moz-keyframes move /* Firefox */
+{
+    from{left: 0px;}
+    to{left: 5px}
+}
+@-webkit-keyframes move /* Safari and Chrome */
+{
+    from{left: 0px;}
+    to{left: 5px}
+}
+@-o-keyframes move /* Opera */
+{
+    from{left: 0px;}
+    to{left: 5px}
+}

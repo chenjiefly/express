@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="/javascripts/login.js"></script>
+</head>
+<body>
+    <form class="form-horizontal" role="form" method="get" action="login">
+       <div class="form-group">
+          <label for="firstname" class="col-sm-2 control-label">姓氏</label>
+          <div class="col-sm-5">
+             <input type="text" class="form-control" id="firstname" name="firstname"
+                placeholder="请输入姓氏">
+          </div>
+       </div>
+       <div class="form-group">
+          <label for="lastname" class="col-sm-2 control-label">名字</label>
+          <div class="col-sm-5">
+             <input type="text" class="form-control" id="lastname" name="lastname"
+                placeholder="请输入名字">
+          </div>
+       </div>
+       <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+             <div class="checkbox">
+                <label>
+                   <input type="checkbox"> 请记住我
+                </label>
+             </div>
+          </div>
+       </div>
+       <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+             <button type="submit" class="btn btn-default">登录</button>
+          </div>
+       </div>
+    </form>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button id="ajaxGet" class="btn btn-default">Ajax之Get登陆</button>
+        <button id="ajaxPost" class="btn btn-default">Ajax之Post登陆</button>
+      </div>
+    </div>
+</body>
+</html>
