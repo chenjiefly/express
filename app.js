@@ -1,3 +1,11 @@
+/**
+ * [express description]
+ * @description [express framwork]
+ * @author [chenjie]
+ */
+
+
+// 模块依赖
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -68,6 +76,6 @@ app.use(function(err, req, res, next) {
 
 app.listen(app.get('port'));
 
-console.log('The server is starting.');
+console.log('The server is starting on port: ' + app.get('port') + '.');
 
 module.exports = app;
