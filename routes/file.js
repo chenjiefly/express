@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 
 /* 使用fs模块读取本地文件 */
 router.get('/local', function(req, res, next) {
-    var filePath = '/Users/chenjie/Documents/1、入职学习/2、入门学习/3、Node.js/express/demoEjs/public/files/abc.txt';
+    var filePath = '/Users/chenjie/Documents/Study/Program/Node.js/express/demoEjs/public/files/abc.txt';
     var data = '';
     var date = new Date();
     var array = [];
@@ -22,7 +22,7 @@ router.get('/local', function(req, res, next) {
         if(err){
             console.log('写入文件失败');
         }else{
-            console.log('保存成功, 赶紧去看看乱码吧');
+            console.log('保存成功, 赶紧去看看登陆日志吧');
         }
     })
 
